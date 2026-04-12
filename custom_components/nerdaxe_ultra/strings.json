@@ -1,0 +1,41 @@
+{
+  "config": {
+    "flow_title": "NerdAxe Ultra ({host})",
+    "step": {
+      "user": {
+        "title": "Miner Address",
+        "description": "Enter the IP address of your NerdAxe Ultra miner",
+        "data": {
+          "host": "IP Address"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to miner",
+      "invalid_host": "Invalid IP address"
+    }
+  },
+  "entity": {
+    "button": {
+      "restart": "Restart Miner"
+    },
+    "sensor": {
+      "temperature": "Temperature",
+      "power": "Power",
+      "hashrate": "Hashrate",
+      "fan_speed": "Fan Speed",
+      "current": "Current",
+      "core_voltage": "Core Voltage",
+      "shares_accepted": "Shares Accepted",
+      "shares_rejected": "Shares Rejected"
+    },
+    "number": {
+      "fan_speed": "Fan Speed",
+      "frequency": "Frequency",
+      "voltage": "Voltage"
+    },
+    "switch": {
+      "oc_mode": "OC Mode"
+    }
+  }
+}
