@@ -1,6 +1,5 @@
 {
   "name": "NerdAxe Ultra Integration",
   "content_in_root": false,
-  "domains": ["nerdaxe_ultra"],
-  "homeassistant": "2023.0.0"
+  "domains": ["nerdaxe_ultra"]
 }
