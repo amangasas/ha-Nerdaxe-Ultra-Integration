@@ -15,7 +15,7 @@ If you’d like to support my work, you can do so here:
 
 1. Install HACS
 2. Add custom repository:
-   - URL: https://github.com/YOURNAME/ha-nerdaxe-ultra-integration
+   - URL: https://github.com/amangasas/ha-Nerdaxe-Ultra-Integration
    - Category: Integration
 3. Install and restart Home Assistant
 4. Add integration via UI
