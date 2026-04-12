@@ -1,0 +1,10 @@
+{
+  "domain": "nerdaxe_ultra",
+  "name": "NerdAxe Ultra",
+  "version": "1.0.0",
+  "documentation": "https://github.com/YOURNAME/ha-nerdaxe-ultra-integration",
+  "dependencies": [],
+  "codeowners": ["@YOURNAME"],
+  "requirements": [],
+  "iot_class": "local_polling"
+}
