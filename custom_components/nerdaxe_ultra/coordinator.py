@@ -1,8 +1,12 @@
 from datetime import timedelta
+import logging
+
 import async_timeout
 
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
+
+_LOGGER = logging.getLogger(__name__)
 
 
 class NerdaxeCoordinator(DataUpdateCoordinator):
@@ -12,6 +16,7 @@ class NerdaxeCoordinator(DataUpdateCoordinator):
 
         super().__init__(
             hass,
+            _LOGGER,
             name="nerdaxe_ultra",
             update_interval=timedelta(seconds=5),
         )

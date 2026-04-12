@@ -1,6 +1,6 @@
 {
   "name": "NerdAxe Ultra Integration",
-  "render_readme": true,
-  "country": ["PL"],
+  "content": "custom_components",
+  "domains": ["nerdaxe_ultra"],
   "homeassistant": "2024.1.0"
 }
