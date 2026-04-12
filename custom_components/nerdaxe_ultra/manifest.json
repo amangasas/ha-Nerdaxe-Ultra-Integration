@@ -1,12 +1,11 @@
 {
   "domain": "nerdaxe_ultra",
   "name": "NerdAxe Ultra",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "documentation": "https://github.com/amangasas/ha-nerdaxe-ultra-integration",
   "dependencies": [],
   "codeowners": ["@amangasas"],
   "requirements": [],
   "iot_class": "local_polling",
-  "config_flow": true,
-  "integration_type": "hub"
+  "config_flow": true
 }
